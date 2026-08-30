@@ -1,0 +1,151 @@
+﻿id_consulta,id_paciente,sexo,tipo_plano,idade,especialidade,data_consulta,dias_antecedencia,historico_faltas,valor_consulta,status_consulta
+1,39,Masculino,Bradesco Saúde,31,Cardiologia,2026-01-05,18,0,300.0,Realizada
+2,29,Feminino,Unimed,48,Oftalmologia,2026-01-07,19,0,230.0,Realizada
+3,15,Feminino,SulAmérica,75,Ginecologia,2026-01-09,5,0,260.0,Faltou
+4,43,Feminino,Bradesco Saúde,22,Neurologia,2026-01-11,15,1,320.0,Realizada
+5,8,Masculino,Particular,52,Oftalmologia,2026-01-13,25,0,230.0,Realizada
+6,21,Feminino,Amil,40,Pediatria,2026-01-15,2,1,220.0,Realizada
+7,39,Feminino,Amil,46,Clinica Geral,2026-01-17,10,1,180.0,Faltou
+8,19,Masculino,Amil,60,Gastroenterologia,2026-01-19,24,0,270.0,Realizada
+9,23,Feminino,Unimed,28,Pediatria,2026-01-21,30,0,220.0,Realizada
+10,11,Masculino,Particular,35,Ginecologia,2026-01-23,18,0,260.0,Realizada
+11,11,Masculino,Amil,64,Neurologia,2026-01-25,27,0,320.0,Realizada
+12,24,Masculino,Unimed,29,Psiquiatria,2026-01-27,13,0,350.0,Realizada
+13,36,Feminino,Unimed,26,Clinica Geral,2026-01-29,5,0,180.0,Faltou
+14,40,Feminino,SulAmérica,27,Ginecologia,2026-01-31,23,0,260.0,Realizada
+15,24,Feminino,Particular,75,Cardiologia,2026-02-02,24,1,300.0,Realizada
+16,3,Feminino,Unimed,61,Ortopedia,2026-02-04,1,0,280.0,Realizada
+17,22,Feminino,SulAmérica,34,Ginecologia,2026-02-06,22,1,260.0,Realizada
+18,2,Feminino,SulAmérica,55,Clinica Geral,2026-02-08,1,0,180.0,Realizada
+19,24,Feminino,Particular,24,Gastroenterologia,2026-02-10,18,2,270.0,Realizada
+20,44,Masculino,SulAmérica,63,Gastroenterologia,2026-02-12,15,2,270.0,Realizada
+21,30,Feminino,Unimed,30,Ginecologia,2026-02-14,17,0,260.0,Realizada
+22,38,Masculino,Unimed,57,Oftalmologia,2026-02-16,11,2,230.0,Realizada
+23,2,Feminino,Amil,59,Ortopedia,2026-02-18,21,0,280.0,Realizada
+24,21,Feminino,SulAmérica,26,Cardiologia,2026-02-20,26,0,300.0,Realizada
+25,33,Feminino,SulAmérica,67,Ginecologia,2026-02-22,25,1,260.0,Realizada
+26,12,Masculino,Bradesco Saúde,44,Oftalmologia,2026-02-24,22,0,230.0,Realizada
+27,22,Masculino,SulAmérica,75,Gastroenterologia,2026-02-26,27,1,270.0,Realizada
+28,44,Masculino,SulAmérica,19,Gastroenterologia,2026-02-28,27,0,270.0,Realizada
+29,25,Masculino,SulAmérica,22,Neurologia,2026-03-02,17,0,320.0,Realizada
+30,49,Feminino,Amil,46,Ginecologia,2026-03-04,13,2,260.0,Realizada
+31,27,Masculino,Amil,54,Ortopedia,2026-03-06,1,1,280.0,Realizada
+32,42,Feminino,Particular,55,Dermatologia,2026-03-08,2,0,250.0,Realizada
+33,28,Feminino,Bradesco Saúde,36,Ortopedia,2026-03-10,9,1,280.0,Realizada
+34,16,Masculino,SulAmérica,25,Gastroenterologia,2026-03-12,3,0,270.0,Realizada
+35,15,Masculino,SulAmérica,65,Gastroenterologia,2026-03-14,1,0,270.0,Realizada
+36,47,Masculino,Bradesco Saúde,62,Pediatria,2026-03-16,21,0,220.0,Realizada
+37,44,Masculino,Bradesco Saúde,18,Gastroenterologia,2026-03-18,16,0,270.0,Realizada
+38,3,Masculino,Particular,39,Cardiologia,2026-03-20,23,0,300.0,Realizada
+39,37,Masculino,Bradesco Saúde,69,Endocrinologia,2026-03-22,6,0,310.0,Realizada
+40,7,Masculino,SulAmérica,34,Ginecologia,2026-03-24,28,0,260.0,Realizada
+41,21,Masculino,Unimed,24,Ortopedia,2026-03-26,17,2,280.0,Realizada
+42,9,Feminino,Unimed,42,Endocrinologia,2026-03-28,5,1,310.0,Realizada
+43,39,Masculino,Particular,62,Oftalmologia,2026-03-30,5,0,230.0,Realizada
+44,18,Masculino,Unimed,21,Dermatologia,2026-04-01,6,1,250.0,Realizada
+45,4,Feminino,Bradesco Saúde,53,Cardiologia,2026-04-03,3,1,300.0,Realizada
+46,25,Masculino,Amil,23,Clinica Geral,2026-04-05,21,0,180.0,Realizada
+47,14,Feminino,Amil,48,Urologia,2026-04-07,23,0,280.0,Realizada
+48,50,Feminino,Bradesco Saúde,36,Ortopedia,2026-04-09,5,0,280.0,Realizada
+49,9,Masculino,Particular,61,Endocrinologia,2026-04-11,21,1,310.0,Realizada
+50,26,Feminino,Particular,71,Clinica Geral,2026-04-13,5,0,180.0,Realizada
+51,2,Feminino,Particular,56,Dermatologia,2026-04-15,10,2,250.0,Realizada
+52,20,Feminino,Unimed,44,Pediatria,2026-04-17,10,0,220.0,Realizada
+53,28,Feminino,Particular,27,Clinica Geral,2026-04-19,19,0,180.0,Realizada
+54,47,Masculino,SulAmérica,43,Cardiologia,2026-04-21,17,0,300.0,Realizada
+55,7,Feminino,Particular,36,Cardiologia,2026-04-23,21,0,300.0,Realizada
+56,44,Masculino,SulAmérica,56,Pediatria,2026-04-25,14,0,220.0,Realizada
+57,8,Feminino,Bradesco Saúde,20,Urologia,2026-04-27,9,0,280.0,Realizada
+58,47,Feminino,Bradesco Saúde,62,Ginecologia,2026-04-29,14,0,260.0,Realizada
+59,35,Feminino,Particular,30,Clinica Geral,2026-05-01,1,1,180.0,Realizada
+60,14,Feminino,Amil,67,Pediatria,2026-05-03,19,1,220.0,Realizada
+61,17,Masculino,SulAmérica,45,Cardiologia,2026-05-05,13,1,300.0,Realizada
+62,36,Masculino,Unimed,75,Cardiologia,2026-05-07,13,0,300.0,Realizada
+63,50,Feminino,Particular,37,Endocrinologia,2026-05-09,4,3,310.0,Realizada
+64,40,Feminino,Particular,45,Gastroenterologia,2026-05-11,30,0,270.0,Realizada
+65,4,Masculino,Amil,25,Urologia,2026-05-13,1,2,280.0,Faltou
+66,2,Feminino,Unimed,58,Clinica Geral,2026-05-15,17,1,180.0,Realizada
+67,6,Feminino,SulAmérica,56,Clinica Geral,2026-05-17,8,1,180.0,Realizada
+68,42,Feminino,Particular,18,Dermatologia,2026-05-19,2,0,250.0,Realizada
+69,4,Masculino,Unimed,20,Pediatria,2026-05-21,28,0,220.0,Realizada
+70,29,Masculino,SulAmérica,30,Dermatologia,2026-05-23,8,1,250.0,Realizada
+71,18,Masculino,Amil,45,Pediatria,2026-05-25,7,0,220.0,Realizada
+72,26,Feminino,SulAmérica,74,Oftalmologia,2026-05-27,26,1,230.0,Realizada
+73,44,Feminino,Bradesco Saúde,66,Cardiologia,2026-05-29,26,1,300.0,Realizada
+74,34,Masculino,Particular,42,Gastroenterologia,2026-05-31,2,1,270.0,Realizada
+75,10,Masculino,Particular,73,Endocrinologia,2026-06-02,22,0,310.0,Realizada
+76,36,Masculino,SulAmérica,50,Gastroenterologia,2026-06-04,22,0,270.0,Realizada
+77,14,Masculino,Unimed,55,Gastroenterologia,2026-06-06,3,0,270.0,Faltou
+78,31,Feminino,Bradesco Saúde,70,Gastroenterologia,2026-06-08,27,0,270.0,Realizada
+79,48,Masculino,Unimed,23,Dermatologia,2026-06-10,18,1,250.0,Realizada
+80,15,Feminino,Unimed,75,Pediatria,2026-06-12,12,1,220.0,Realizada
+81,8,Masculino,Particular,61,Psiquiatria,2026-06-14,1,2,350.0,Realizada
+82,14,Feminino,Bradesco Saúde,62,Oftalmologia,2026-06-16,22,1,230.0,Realizada
+83,23,Masculino,Bradesco Saúde,49,Ortopedia,2026-06-18,12,0,280.0,Realizada
+84,40,Masculino,SulAmérica,62,Gastroenterologia,2026-06-20,5,3,270.0,Realizada
+85,21,Masculino,SulAmérica,64,Ginecologia,2026-06-22,30,2,260.0,Realizada
+86,16,Masculino,Unimed,38,Dermatologia,2026-06-24,30,0,250.0,Realizada
+87,45,Feminino,Unimed,33,Urologia,2026-06-26,27,1,280.0,Realizada
+88,18,Masculino,Amil,71,Endocrinologia,2026-06-28,25,1,310.0,Realizada
+89,47,Feminino,Bradesco Saúde,38,Ortopedia,2026-06-30,17,1,280.0,Realizada
+90,24,Feminino,Unimed,28,Psiquiatria,2026-07-02,16,0,350.0,Realizada
+91,26,Feminino,Bradesco Saúde,54,Ginecologia,2026-07-04,15,0,260.0,Realizada
+92,25,Feminino,Bradesco Saúde,53,Psiquiatria,2026-07-06,23,2,350.0,Faltou
+93,45,Masculino,SulAmérica,52,Ortopedia,2026-07-08,15,0,280.0,Realizada
+94,41,Feminino,Unimed,36,Gastroenterologia,2026-07-10,5,1,270.0,Realizada
+95,29,Feminino,Amil,37,Ginecologia,2026-07-12,21,1,260.0,Realizada
+96,15,Feminino,Particular,74,Psiquiatria,2026-07-14,14,0,350.0,Realizada
+97,45,Masculino,Bradesco Saúde,35,Endocrinologia,2026-07-16,2,1,310.0,Faltou
+98,1,Masculino,Bradesco Saúde,64,Pediatria,2026-07-18,11,1,220.0,Realizada
+99,25,Masculino,Unimed,58,Cardiologia,2026-07-20,19,0,300.0,Realizada
+100,7,Masculino,Particular,66,Pediatria,2026-07-22,7,1,220.0,Realizada
+101,9,Feminino,Unimed,31,Ortopedia,2026-07-24,6,2,280.0,Realizada
+102,24,Feminino,Unimed,32,Dermatologia,2026-07-26,28,0,250.0,Realizada
+103,1,Masculino,Particular,48,Cardiologia,2026-07-28,2,2,300.0,Faltou
+104,44,Feminino,Unimed,18,Oftalmologia,2026-07-30,6,0,230.0,Realizada
+105,8,Feminino,Unimed,70,Endocrinologia,2026-08-01,18,2,310.0,Realizada
+106,24,Feminino,Bradesco Saúde,71,Oftalmologia,2026-08-03,2,2,230.0,Realizada
+107,11,Masculino,Unimed,71,Ginecologia,2026-08-05,18,0,260.0,Realizada
+108,17,Masculino,SulAmérica,20,Clinica Geral,2026-08-07,30,0,180.0,Realizada
+109,8,Feminino,Unimed,33,Cardiologia,2026-08-09,15,1,300.0,Realizada
+110,35,Masculino,Particular,40,Oftalmologia,2026-08-11,27,1,230.0,Realizada
+111,35,Masculino,Bradesco Saúde,74,Oftalmologia,2026-08-13,19,1,230.0,Realizada
+112,33,Masculino,Amil,28,Psiquiatria,2026-08-15,2,1,350.0,Realizada
+113,5,Masculino,Bradesco Saúde,29,Pediatria,2026-08-17,20,1,220.0,Realizada
+114,42,Masculino,Unimed,27,Psiquiatria,2026-08-19,25,0,350.0,Realizada
+115,39,Feminino,SulAmérica,49,Cardiologia,2026-08-21,6,1,300.0,Realizada
+116,41,Masculino,Amil,33,Cardiologia,2026-08-23,1,0,300.0,Realizada
+117,28,Feminino,SulAmérica,25,Ortopedia,2026-08-25,24,2,280.0,Realizada
+118,7,Feminino,Unimed,55,Psiquiatria,2026-08-27,15,1,350.0,Realizada
+119,9,Masculino,Unimed,29,Neurologia,2026-08-29,28,0,320.0,Realizada
+120,8,Feminino,Bradesco Saúde,41,Urologia,2026-08-31,30,0,280.0,Realizada
+121,12,Feminino,Particular,45,Pediatria,2026-09-02,23,0,220.0,Realizada
+122,34,Feminino,Bradesco Saúde,70,Cardiologia,2026-09-04,10,2,300.0,Realizada
+123,33,Masculino,Amil,25,Ortopedia,2026-09-06,19,1,280.0,Realizada
+124,48,Masculino,Unimed,75,Clinica Geral,2026-09-08,17,0,180.0,Realizada
+125,23,Feminino,SulAmérica,45,Psiquiatria,2026-09-10,5,1,350.0,Realizada
+126,24,Masculino,Bradesco Saúde,53,Pediatria,2026-09-12,29,1,220.0,Realizada
+127,37,Masculino,SulAmérica,43,Clinica Geral,2026-09-14,4,3,180.0,Realizada
+128,35,Masculino,Unimed,25,Psiquiatria,2026-09-16,10,2,350.0,Realizada
+129,44,Masculino,Bradesco Saúde,75,Oftalmologia,2026-09-18,24,1,230.0,Realizada
+130,40,Feminino,Amil,67,Clinica Geral,2026-09-20,17,0,180.0,Realizada
+131,22,Feminino,Unimed,45,Ortopedia,2026-09-22,10,3,280.0,Faltou
+132,27,Masculino,Unimed,45,Pediatria,2026-09-24,17,0,220.0,Realizada
+133,35,Masculino,SulAmérica,54,Gastroenterologia,2026-09-26,28,2,270.0,Realizada
+134,1,Feminino,Amil,58,Ginecologia,2026-09-28,20,2,260.0,Realizada
+135,35,Feminino,Unimed,53,Ginecologia,2026-09-30,24,1,260.0,Realizada
+136,37,Masculino,Bradesco Saúde,44,Pediatria,2026-10-02,5,0,220.0,Realizada
+137,47,Feminino,Bradesco Saúde,71,Clinica Geral,2026-10-04,2,0,180.0,Realizada
+138,14,Masculino,Amil,34,Psiquiatria,2026-10-06,6,1,350.0,Realizada
+139,3,Masculino,Unimed,26,Ortopedia,2026-10-08,21,0,280.0,Realizada
+140,1,Feminino,Unimed,50,Urologia,2026-10-10,2,0,280.0,Realizada
+141,5,Feminino,Unimed,70,Ginecologia,2026-10-12,13,2,260.0,Realizada
+142,26,Masculino,Bradesco Saúde,37,Ortopedia,2026-10-14,30,0,280.0,Realizada
+143,14,Masculino,Amil,30,Ginecologia,2026-10-16,11,1,260.0,Realizada
+144,39,Feminino,Unimed,45,Oftalmologia,2026-10-18,11,0,230.0,Realizada
+145,27,Masculino,SulAmérica,65,Psiquiatria,2026-10-20,16,1,350.0,Realizada
+146,9,Feminino,Bradesco Saúde,46,Oftalmologia,2026-10-22,11,0,230.0,Realizada
+147,15,Masculino,Unimed,30,Ginecologia,2026-10-24,19,1,260.0,Realizada
+148,15,Feminino,Unimed,63,Gastroenterologia,2026-10-26,15,1,270.0,Realizada
+149,26,Feminino,Unimed,52,Gastroenterologia,2026-10-28,25,1,270.0,Realizada
+150,42,Feminino,SulAmérica,23,Oftalmologia,2026-10-30,23,0,230.0,Realizada
