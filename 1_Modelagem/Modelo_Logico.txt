@@ -1,1 +1,104 @@
+CREATE TABLE pacientes (
+id_paciente INT(40) NOT NULL,
+nome_completo VARCHAR(50) NOT NULL,
+cpf VARCHAR(50)NOT NULL,
+data_nascimento DATE,
+data_cadastro DATE,
+sexo VARCHAR(40) NOT NULL,
+endereco VARCHAR(100) NOT NULL,
+telefone VARCHAR(40) NOT NULL, 
+email VARCHAR (40) NOT NULL,
+tipo_plano VARCHAR (50) NOT NULL,
+tipo_sanguineo VARCHAR(2)NOT NULL,
+PRIMARY KEY(id_paciente)
+);
 
+CREATE TABLE medicos (
+id_medico INT(40) NOT NULL,
+nome_medico VARCHAR(40) NOT NULL,
+cpf_medico VARCHAR(50) NOT NULL,
+crm VARCHAR(50) NOT NULL,
+endereco_medico VARCHAR(100) NOT NULL,
+telefone_medico VARCHAR(40) NOT NULL,
+email_medico VARCHAR(40) NOT NULL,
+dias_trabalho VARCHAR(40) NOT NULL,
+PRIMARY KEY(id_medico)
+);
+
+CREATE TABLE especialidades (
+id_especialidade INT(40) NOT NULL,
+nome_especialidade VARCHAR(40) NOT NULL,
+descricao_especialidade VARCHAR(40) NOT NULL,
+area_atuacao VARCHAR(40) NOT NULL,
+valor_base DECIMAL(10,2) NOT NULL,
+duracao_consulta TIME NOT NULL,
+status VARCHAR(40) NOT NULL,
+observacoes VARCHAR(100) NOT NULL,
+PRIMARY KEY (id_especialidade)
+);
+
+CREATE TABLE consultas (
+id_consulta INT(40) NOT NULL,
+id_paciente INT(40) NOT NULL,
+id_medico INT(40) NOT NULL,
+id_especialidade INT(40) NOT NULL,
+data_consulta DATE,
+horario_consulta TIME NOT NULL,
+status_consulta VARCHAR(50) NOT NULL,
+valor_consulta DECIMAL(10,2) NOT NULL,
+PRIMARY KEY(id_consulta),
+FOREIGN KEY(id_paciente) REFERENCES pacientes
+(id_paciente),
+FOREIGN KEY(id_medico) REFERENCES medicos
+(id_medico),
+FOREIGN KEY(id_especialidade) REFERENCES especialidades(id_especialidade)
+); 
+
+CREATE TABLE prontuarios (
+id_prontuario INT(40) NOT NULL,
+id_paciente INT(40) NOT NULL,
+data_abertura DATE,
+queixa_principal VARCHAR(100) NOT NULL,
+diagnostico VARCHAR(50) NOT NULL,
+historico VARCHAR(50) NOT NULL,
+anotacoes VARCHAR(100) NOT NULL,
+observacoes VARCHAR(100) NOT NULL,
+PRIMARY KEY(id_prontuario),
+FOREIGN KEY(id_paciente) REFERENCES pacientes(id_paciente)
+);
+
+CREATE TABLE prescricoes (
+id_prescricao INT(40) NOT NULL,
+id_consulta INT(40) NOT NULL,
+data_prescricao DATE,
+hora_prescricao TIME NOT NULL,
+medicamento VARCHAR(100) NOT NULL,
+duracao VARCHAR(50) NOT NULL,
+vezes_ao_dia INT(40) NOT NULL,
+dosagem VARCHAR(40) NOT NULL,
+instrucoes VARCHAR(100) NOT NULL,
+PRIMARY KEY(id_prescricao),
+FOREIGN KEY(id_consulta) REFERENCES consultas(id_consulta)
+);
+
+
+CREATE TABLE pagamentos (
+id_pagamento INT(40) NOT NULL,
+Id_consulta INT(40) NOT NULL,
+valor DECIMAL(10,2) NOT NULL,
+data_pagamento DATE,
+metodo_pagamento VARCHAR(40) NOT NULL,
+status_pagamento VARCHAR(40) NOT NULL,
+numero_recibo INT(40) NOT NULL,
+observacoes VARCHAR(100) NOT NULL,
+PRIMARY KEY(id_pagamento),
+FOREIGN KEY(id_consulta) REFERENCES consultas(id_consulta)
+);
+
+CREATE TABLE e_assoc_1(
+id_medico INT NOT NULL,
+id_especialidade INT NOT NULL,
+PRIMARY KEY(id_medico, id_especialidade),
+FOREIGN KEY(id_medico) REFERENCES medicos(id_medico),
+FOREIGN KEY(id_especialidade) REFERENCES especialidades(id_especialidade)
+);
